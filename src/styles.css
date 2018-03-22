@@ -1,0 +1,38 @@
+@import "assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+
+.driver-reg-bg{
+  background-image: url('assets/img/driver-reg-bg.jpg');
+}
+
+.home-bg{
+  background-image:  url('./assets/img/home-bg.jpg');
+}
+.center {
+    width: auto;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+html,
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+    background-color: #f2f2f2;
+    /*color: #d3d3d3;*/
+    webkit-tap-highlight-color: #222;
+}
+
+body,input, select, textarea,h1 ,h2, h3, h4, h5, h6{
+    font-family:YouYuan,sans-serif, Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif!important;}
+
+.file-preview-frame{
+    margin: 0 !important;
+    padding: 0 !important;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0b0d03fb-04b4-4d9b-b37d-3dcceeabd174" name="aiesst" url="http://www.aiesst.com">
+        <fileTransfer host="www.aiesst.com" port="22" privateKey="$USER_HOME$/Downloads/id_rsa" rootFolder="/home/zero" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6e510d54-4488-4756-b675-b57a630802c9" name="tutufree" url="http://www.tutufree.com">
+        <fileTransfer host="www.tutufree.com" port="52099" privateKey="C:\Users\Gump\Desktop\tutu-web-front\web_front\web_front\web_front\tutu_free\tutufree_rsa" rootFolder="/home/kevin" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="52099" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

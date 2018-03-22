@@ -1,0 +1,212 @@
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6,li,a{
+  font-family:YouYuan,sans-serif, Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif!important;
+}
+li{
+  font-size: 14px!important;
+}
+#wlogo {
+  width: 30%;
+  height: 30%;
+}
+.container-fluid{
+  background-color: #222!important;
+}
+h4{
+  color: #fff!important;
+}
+a{
+  color:#f2f2f2!important;
+}
+p{
+  font-size: 15px!important;
+  text-indent: 2em;
+}
+
+
+/* start portfolio  */
+
+h2.style{
+  font-family: 'Kreon', serif;
+  display: block;
+  text-transform: uppercase;
+  font-size: 26px;
+  background: #009999;
+  padding: 15px;
+  color: #ffffff;
+  margin: 4% 0;
+}
+.grids_of_4 {
+  margin-top: 2%;
+}
+.images_1_of_4 h3 a{
+  font-family: 'Kreon', serif;
+  display: block;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #3b3b3b;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.images_1_of_4 h3 a:hover{
+  text-decoration: none;
+  color:#2EB398;
+}
+.images_1_of_4 h4 a{
+  font-family: 'Kreon', serif;
+  font-style: italic;
+  line-height: 1.5em;
+  font-size: 16px;
+  color:#2EB398;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.images_1_of_4 h4 a:hover{
+  text-decoration: none;
+  color: #323232;
+}
+/* start blog */
+.blog{
+  background: #ffffff;
+  margin: 0;
+}
+.main{
+  padding: 4%;
+  box-shadow: 1px 1px 5px 5px #d3d3d3;
+  background-color: #fff;
+  margin-top: 100px;
+}
+.para {
+  font-size: 13px;
+  line-height: 1.8em;
+  color: #000;
+}
+.blog_left{
+  display: block;
+}
+.blog_img{
+  margin: 0;
+}
+.blog_left h4 a{
+  font-family: 'Kreon', serif;
+  display: block;
+  text-transform: capitalize;
+  font-size: 22px;
+  color: #3b3b3b;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.blog_left h4 a:hover{
+  text-decoration: none;
+  color: #2EB398;
+}
+.blog_list ul li{
+  display:inline-block;
+  margin-left: 10px;
+}
+.blog_list ul li:first-child{
+  margin-left: 0;
+}
+.blog_list li a{
+  display: block;
+  padding: 4px 8px;
+  color: #b6b6b6;
+  text-transform: capitalize;
+}
+.blog_list ul li i{
+  font-size: 15px;
+  color: #2EB398;
+}
+.blog_list li span{
+  font-family: 'Kreon', serif;
+  padding-left:10px;
+  font-size: 15px;
+  color: #5a5a5a;
+}
+.blog_list li a:hover,.blog_list li a span:hover{
+  color: #2EB398;
+  text-decoration: none;
+}
+.b_left a{
+  font-size: 14px;
+  color: #323232;
+}
+.b_left a span{
+  margin-left: 5px;
+}
+.b_left a:hover{
+  color: #2EB398;
+  text-decoration: none;
+}
+/* start read_more */
+.read_more{
+  margin: 4% 0;
+}
+.read_more.btm{
+  margin-bottom: 8%;
+}
+.read_more a{
+  background: #009999;
+  text-transform: uppercase;
+  font-weight: 100;
+  border: none;
+  color: #ffffff;
+  padding: 12px 24px;
+  font-size: 13px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.read_more a:hover{
+  text-decoration:none;
+  background: #2B9C85;
+}
+.blog_right{
+  margin-top: 15px;
+}
+.blog_right h4{
+  font-family: 'Kreon', serif;
+  text-transform: capitalize;
+  font-size: 2em;
+  color: #3b3b3b;
+  margin-bottom: 15px;
+}
+
+/* details */
+.details{
+  margin-bottom: 3%;
+}
+
+/* backgound */
+.bg-img{
+  background-image: url(../../assets/img/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* back_arrow */
+.side-bar {width: 66px;position: fixed;top: 12px;left: 8px;font-size: 0;line-height: 0;z-index: 100;}
+.side-bar a:hover {background-color: #669fdd;}
+.side-bar .icon-qq {background-position: 0 -62px;}
+.side-bar .icon-chat {background-position: 0 -130px;position: relative;}
+.side-bar .icon-blog {background-position: 0 -198px;}
+.side-bar .icon-mail {background-position: 0 -266px;}
+
+.back-arrow{
+  font-size: 22px;
+  color: #009999;
+}
+
+
+

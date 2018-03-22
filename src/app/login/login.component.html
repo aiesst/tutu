@@ -1,0 +1,87 @@
+<div class="login-border" >
+<div class="login-body"  >
+    <div class=" content y-row" >
+        <div class="login-kuang">
+            <div class="zc">
+
+
+                <div  class="login-wrap" id="login-count" style="display:block;cursor: pointer" >
+                    <div class="hd"  (click)="switchLoginMethod(2)">
+                        <h2 class="quickly-login">
+                            <h2></h2>
+                        </h2>
+                        <div class="login-tip" >
+                            <div class="poptip">
+                                <div class="poptip-arrow"> <em></em>
+                                    <span></span>
+                                </div>
+                                <div class="poptip-content">微信扫码登录</div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>途徒账号登录</h3>
+                    <form action="" method="get">
+                        <div class="inputbox">
+                            <div class="u-logo">
+                                <div class="u-logo-img1"></div>
+                            </div>
+                            <input name="" id="account-number" type="text" class="login-txt" placeholder="账号"></div>
+                        <div class="inputbox">
+                            <input name="" id="password" type="text" class="login-txt" placeholder="登录密码"></div>
+                        <div class="register">
+                            <a href="#">免费注册</a>
+                        </div>
+                        <div class="forget-passward">
+                            <a href="#">忘记密码？</a>
+                        </div>
+                        <input name="登录" id="login-btn" type="button" class="btn-login" value="登录" >
+                        <div class="other-login">
+                            <div class="otip ">其他方式录</div>
+                            <div class="olist">
+                                <a data-link="" href="javascript:void(o);" class="weixin"></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+
+                <div class="login-wrap" id="login-weixin" style="display:none;cursor: pointer !important;">
+                    <div class="hd" (click)="switchLoginMethod(1)">
+                        <h2 class="quickly-login-code">
+                            <h2> </h2>
+                        </h2>
+                        <div class="login-tip">
+                            <div class="poptip">
+                                <div class="poptip-arrow"> <em></em>
+                                    <span></span>
+                                </div>
+                                <div class="poptip-content">返回账号登陆</div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>微信扫码登录</h3>
+
+                    <form action="" method="get">
+                        <div id="login_qrcode" class="center" style="width:222px;height:222px;" > <div style="z-index: 100"></div><div></div><div></div><div></div><div></div><div></div></div>
+                        <input name="登录" id="qrcode_refresh_btn" (click)="refreshQrcode()"  type="button" class="btn-login" value="刷新二维码"
+
+                               style="background-image: url(../../assets/img/refresh.png); background-repeat:  no-repeat; background-position:55px; left:100px" />
+                        <div class="other-login">
+                            <div class="otip-weixin"></div>
+
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>

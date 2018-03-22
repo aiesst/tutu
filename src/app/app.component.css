@@ -1,0 +1,7 @@
+
+.side-bar {width: 66px;position: fixed;top: 16px;left: 30px;font-size: 0;line-height: 0;z-index: 100;}
+.side-bar a:hover {background-color: #669fdd;}
+.side-bar .icon-qq {background-position: 0 -62px;}
+.side-bar .icon-chat {background-position: 0 -130px;position: relative;}
+.side-bar .icon-blog {background-position: 0 -198px;}
+.side-bar .icon-mail {background-position: 0 -266px;}

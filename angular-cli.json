@@ -1,0 +1,82 @@
+{
+  "project": {
+    "version": "1.0.0-beta.24",
+    "name": "tutu"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.json",
+      "prefix": "app",
+      "mobile": false,
+      "styles": [
+        "styles.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/bootstrap-fileinput/css/fileinput.min.css",
+        "../node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.css",
+        "../node_modules/loaders.css/loaders.min.css",
+        "lib/css/owl.carousel.css",
+        "lib/css/owl.theme.css",
+
+        "../node_modules/sweetalert2/dist/sweetalert2.min.css"
+      ],
+      "scripts": [
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/bootstrap-fileinput/js/fileinput.js",
+        "../node_modules/bootstrap-datepicker/js/bootstrap-datepicker.js",
+        "../node_modules/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js",
+        "../node_modules/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js",
+        "../node_modules/bootstrap-fileinput/js/locales/zh.js",
+        "../node_modules/crypto-js/crypto-js.js",
+        "../node_modules/crypto-js/aes.js",
+        "../node_modules/crypto-js/md5.js",
+        "../node_modules/jquery.qrcode/jquery.qrcode.min.js",
+        "lib/plugin/owl/owl.carousel.js",
+        "../node_modules/sweetalert2/dist/sweetalert2.min.js",
+        "../node_modules/immutable/dist/immutable.min.js"
+
+      ],
+      "environments": {
+        "source": "environments/environment.ts",
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "addons": [],
+  "packages": [],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "prefixInterfaces": false,
+    "inline": {
+      "style": false,
+      "template": false
+    },
+    "spec": {
+      "class": false,
+      "component": true,
+      "directive": true,
+      "module": false,
+      "pipe": true,
+      "service": true
+    }
+  }
+}
